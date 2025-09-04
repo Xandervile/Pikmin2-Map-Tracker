@@ -1,0 +1,49 @@
+{
+  "layout_maps": {
+    "type": "container",
+    "content": [
+      {
+        "type": "tabbed",
+
+        "tabs": [
+          {
+            "title": "Valley Of Repose",
+            "content": {
+              "type": "map",
+              "maps": [
+                "valleyofrepose"
+              ]
+            }
+          },
+		  {
+            "title": "Awakening Wood",
+            "content": {
+              "type": "map",
+              "maps": [
+                "awakeningwood"
+              ]
+            }
+          },
+		  {
+            "title": "Perplexing Pool",
+            "content": {
+              "type": "map",
+              "maps": [
+                "perplexingpool"
+              ]
+            }
+          },
+		  {
+            "title": "Wistful Wild",
+            "content": {
+              "type": "map",
+              "maps": [
+                "wistfulwild"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

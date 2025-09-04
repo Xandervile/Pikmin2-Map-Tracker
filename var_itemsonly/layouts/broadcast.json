@@ -1,0 +1,601 @@
+﻿{
+  "tracker_broadcast": {
+    "type": "array",
+    "background": "#232F23",
+    "orientation": "vertical",
+    "content": [{
+    "type": "array",
+    "orientation": "vertical",
+    "content": [
+		  {
+			"type": "array",
+			"orientation": "horizontal",
+			"h_alignment": "center",
+			"margin": "0,0",
+			"content": [
+			  {
+				"type": "item",
+				"item": "onionsheader",
+				"margin": "8,6",
+				"width": 160,
+				"height": 32
+			  }
+			]
+		  },
+		  {
+			"type": "itemgrid",
+			"h_alignment": "center",
+			"item_size": 48,
+			"margin": "0,0",
+			"item_margin": "8,6",
+			"rows": [
+			  [ "redonion", "yellowonion", "blueonion"],
+			  [ "purpleonion", "whiteonion"]
+			]
+		  },
+		  {
+			"type": "array",
+			"orientation": "horizontal",
+			"h_alignment": "center",
+			"margin": "0,0",
+			"content": [
+			  {
+				"type": "item",
+				"item": "explorerheader",
+				"margin": "8,6",
+				"width": 160,
+				"height": 32
+			  }
+			]
+		  },
+		  {
+			"type": "itemgrid",
+			"h_alignment": "center",
+			"item_size": 48,
+			"margin": "0,0",
+			"item_margin": "8,6",
+			"rows": [
+			  [ "megatweeter", "pluckaphone", "solarsystem"],
+			  [ "metalsuitz", "scorchguard", "antielectrifier"],
+			  [ "rushboots", "rocketfist", "treasuregauge"]
+			]
+		  },
+		  {
+			"type": "array",
+			"orientation": "horizontal",
+			"h_alignment": "center",
+			"margin": "0,0",
+			"content": [
+			  {
+				"type": "item",
+				"item": "locationheader",
+				"margin": "8,6",
+				"width": 160,
+				"height": 32
+			  }
+			]
+		  },
+		  {
+			"type": "array",
+			"orientation": "horizontal",
+			"h_alignment": "center",
+			"margin": "0,0",
+			"content": [
+			  {
+				"type": "item",
+				"item": "vortitle",
+				"margin": "8,6",
+				"width": 128,
+				"height": 32
+			  }
+			]
+		  },
+		  {
+			"type": "array",
+			"orientation": "horizontal",
+			"h_alignment": "center",
+			"margin": "0,0",
+			"content": [
+			  {
+				"type": "array",
+				"orientation": "vertical",
+				"h_alignment": "center",
+				"margin": "16,0",
+				"content": [
+				  {
+					"type": "item",
+					"item": "ectitle",
+					"margin": "8,6",
+					"width": 32,
+					"height": 12
+				  },
+				  {
+					"type": "item",
+					"item": "eckey",
+					"margin": "8,6",
+					"width": 32,
+					"height": 32
+				  },
+				  {
+					"type": "item",
+					"item": "ecdest",
+					"margin": "8,6",
+					"width": 32,
+					"height": 12
+				  }
+				]
+			  },
+			  {
+				"type": "array",
+				"orientation": "vertical",
+				"h_alignment": "center",
+				"margin": "16,0",
+				"content": [
+				  {
+					"type": "item",
+					"item": "sctitle",
+					"margin": "8,6",
+					"width": 32,
+					"height": 12
+				  },
+				  {
+					"type": "item",
+					"item": "sckey",
+					"margin": "8,6",
+					"width": 32,
+					"height": 32
+				  },
+				  {
+					"type": "item",
+					"item": "scdest",
+					"margin": "8,6",
+					"width": 32,
+					"height": 12
+				  }
+				]
+			  },
+			  {
+				"type": "array",
+				"orientation": "vertical",
+				"h_alignment": "center",
+				"margin": "16,0",
+				"content": [
+				  {
+					"type": "item",
+					"item": "fctitle",
+					"margin": "8,6",
+					"width": 32,
+					"height": 12
+				  },
+				  {
+					"type": "item",
+					"item": "fckey",
+					"margin": "8,6",
+					"width": 32,
+					"height": 32
+				  },
+				  {
+					"type": "item",
+					"item": "fcdest",
+					"margin": "8,6",
+					"width": 32,
+					"height": 12
+				  }
+				]
+			  }
+			]
+		  },
+		  {
+			"type": "array",
+			"orientation": "horizontal",
+			"h_alignment": "center",
+			"margin": "0,0",
+			"content": [
+			  {
+				"type": "item",
+				"item": "awtitle",
+				"margin": "8,6",
+				"width": 128,
+				"height": 32
+			  },
+			  {
+				"type": "item",
+				"item": "globe1",
+				"margin": "8,6",
+				"width": 32,
+				"height": 32
+			  },
+			]
+		  },
+		  {
+			"type": "array",
+			"orientation": "horizontal",
+			"h_alignment": "center",
+			"margin": "0,0",
+			"content": [
+			  {
+				"type": "array",
+				"orientation": "vertical",
+				"h_alignment": "center",
+				"margin": "8,0",
+				"content": [
+				  {
+					"type": "item",
+					"item": "hobtitle",
+					"margin": "8,6",
+					"width": 32,
+					"height": 12
+				  },
+				  {
+					"type": "item",
+					"item": "hobkey",
+					"margin": "8,6",
+					"width": 32,
+					"height": 32
+				  },
+				  {
+					"type": "item",
+					"item": "hobdest",
+					"margin": "8,6",
+					"width": 32,
+					"height": 12
+				  }
+				]
+			  },
+			  {
+				"type": "array",
+				"orientation": "vertical",
+				"h_alignment": "center",
+				"margin": "8,0",
+				"content": [
+				  {
+					"type": "item",
+					"item": "wfgtitle",
+					"margin": "8,6",
+					"width": 32,
+					"height": 12
+				  },
+				  {
+					"type": "item",
+					"item": "wfgkey",
+					"margin": "8,6",
+					"width": 32,
+					"height": 32
+				  },
+				  {
+					"type": "item",
+					"item": "wfgdest",
+					"margin": "8,6",
+					"width": 32,
+					"height": 12
+				  }
+				]
+			  },
+			  {
+				"type": "array",
+				"orientation": "vertical",
+				"h_alignment": "center",
+				"margin": "8,0",
+				"content": [
+				  {
+					"type": "item",
+					"item": "bktitle",
+					"margin": "8,6",
+					"width": 32,
+					"height": 12
+				  },
+				  {
+					"type": "item",
+					"item": "bkkey",
+					"margin": "8,6",
+					"width": 32,
+					"height": 32
+				  },
+				  {
+					"type": "item",
+					"item": "bkdest",
+					"margin": "8,6",
+					"width": 32,
+					"height": 12
+				  }
+				]
+			  },
+			  {
+				"type": "array",
+				"orientation": "vertical",
+				"h_alignment": "center",
+				"margin": "8,0",
+				"content": [
+				  {
+					"type": "item",
+					"item": "shtitle",
+					"margin": "8,6",
+					"width": 32,
+					"height": 12
+				  },
+				  {
+					"type": "item",
+					"item": "shkey",
+					"margin": "8,6",
+					"width": 32,
+					"height": 32
+				  },
+				  {
+					"type": "item",
+					"item": "shdest",
+					"margin": "8,6",
+					"width": 32,
+					"height": 12
+				  }
+				]
+			  }
+			]
+		  },
+		  {
+			"type": "array",
+			"orientation": "horizontal",
+			"h_alignment": "center",
+			"margin": "0,0",
+			"content": [
+			  {
+				"type": "item",
+				"item": "pptitle",
+				"margin": "8,6",
+				"width": 128,
+				"height": 32
+			  },
+			  {
+				"type": "item",
+				"item": "globe2",
+				"margin": "8,6",
+				"width": 32,
+				"height": 32
+			  },
+			]
+		  },
+		  {
+			"type": "array",
+			"orientation": "horizontal",
+			"h_alignment": "center",
+			"margin": "0,0",
+			"content": [
+			  {
+				"type": "array",
+				"orientation": "vertical",
+				"h_alignment": "center",
+				"margin": "8,0",
+				"content": [
+				  {
+					"type": "item",
+					"item": "costitle",
+					"margin": "8,6",
+					"width": 32,
+					"height": 12
+				  },
+				  {
+					"type": "item",
+					"item": "coskey",
+					"margin": "8,6",
+					"width": 32,
+					"height": 32
+				  },
+				  {
+					"type": "item",
+					"item": "cosdest",
+					"margin": "8,6",
+					"width": 32,
+					"height": 12
+				  }
+				]
+			  },
+			  {
+				"type": "array",
+				"orientation": "vertical",
+				"h_alignment": "center",
+				"margin": "8,0",
+				"content": [
+				  {
+					"type": "item",
+					"item": "gktitle",
+					"margin": "8,6",
+					"width": 32,
+					"height": 12
+				  },
+				  {
+					"type": "item",
+					"item": "gkkey",
+					"margin": "8,6",
+					"width": 32,
+					"height": 32
+				  },
+				  {
+					"type": "item",
+					"item": "gkdest",
+					"margin": "8,6",
+					"width": 32,
+					"height": 12
+				  }
+				]
+			  },
+			  {
+				"type": "array",
+				"orientation": "vertical",
+				"h_alignment": "center",
+				"margin": "8,0",
+				"content": [
+				  {
+					"type": "item",
+					"item": "srtitle",
+					"margin": "8,6",
+					"width": 32,
+					"height": 12
+				  },
+				  {
+					"type": "item",
+					"item": "srkey",
+					"margin": "8,6",
+					"width": 32,
+					"height": 32
+				  },
+				  {
+					"type": "item",
+					"item": "srdest",
+					"margin": "8,6",
+					"width": 32,
+					"height": 12
+				  }
+				]
+			  },
+			  {
+				"type": "array",
+				"orientation": "vertical",
+				"h_alignment": "center",
+				"margin": "8,0",
+				"content": [
+				  {
+					"type": "item",
+					"item": "smgctitle",
+					"margin": "8,6",
+					"width": 32,
+					"height": 12
+				  },
+				  {
+					"type": "item",
+					"item": "smgckey",
+					"margin": "8,6",
+					"width": 32,
+					"height": 32
+				  },
+				  {
+					"type": "item",
+					"item": "smgcdest",
+					"margin": "8,6",
+					"width": 32,
+					"height": 12
+				  }
+				]
+			  }
+			]
+		  },
+		  {
+			"type": "array",
+			"orientation": "horizontal",
+			"h_alignment": "center",
+			"margin": "0,0",
+			"content": [
+			  {
+				"type": "item",
+				"item": "wwtitle",
+				"margin": "8,6",
+				"width": 128,
+				"height": 32
+			  },
+			  {
+				"type": "item",
+				"item": "shacho",
+				"margin": "8,6",
+				"width": 24,
+				"height": 24
+			  },
+			]
+		  },
+		  {
+			"type": "array",
+			"orientation": "horizontal",
+			"h_alignment": "center",
+			"margin": "0,0",
+			"content": [
+			  {
+				"type": "array",
+				"orientation": "vertical",
+				"h_alignment": "center",
+				"margin": "16,0",
+				"content": [
+				  {
+					"type": "item",
+					"item": "coctitle",
+					"margin": "8,6",
+					"width": 32,
+					"height": 12
+				  },
+				  {
+					"type": "item",
+					"item": "cockey",
+					"margin": "8,6",
+					"width": 32,
+					"height": 32
+				  },
+				  {
+					"type": "item",
+					"item": "cocdest",
+					"margin": "8,6",
+					"width": 32,
+					"height": 12
+				  }
+				]
+			  },
+			  {
+				"type": "array",
+				"orientation": "vertical",
+				"h_alignment": "center",
+				"margin": "16,0",
+				"content": [
+				  {
+					"type": "item",
+					"item": "hohtitle",
+					"margin": "8,6",
+					"width": 32,
+					"height": 12
+				  },
+				  {
+					"type": "item",
+					"item": "hohkey",
+					"margin": "8,6",
+					"width": 32,
+					"height": 32
+				  },
+				  {
+					"type": "item",
+					"item": "hohdest",
+					"margin": "8,6",
+					"width": 32,
+					"height": 12
+				  }
+				]
+			  },
+			  {
+				"type": "array",
+				"orientation": "vertical",
+				"h_alignment": "center",
+				"margin": "16,0",
+				"content": [
+				  {
+					"type": "item",
+					"item": "ddtitle",
+					"margin": "8,6",
+					"width": 32,
+					"height": 12
+				  },
+				  {
+					"type": "item",
+					"item": "ddkey",
+					"margin": "8,6",
+					"width": 32,
+					"height": 32
+				  },
+				  {
+					"type": "item",
+					"item": "dddest",
+					"margin": "8,6",
+					"width": 32,
+					"height": 12
+				  }
+				]
+			  }
+			]
+		  }
+		]
+	  }
+    ]
+  }
+}

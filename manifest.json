@@ -1,0 +1,15 @@
+﻿{
+  "name": "Pikmin 2 Map Tracker",
+  "game_name": "Pikmin 2",
+  "package_version": "1.0.0",
+  "package_uid": "Pikmin2_Map_Tracker",
+  "author": "Xandervile",
+  "variants": {
+	"standard": {
+	  "display_name": "Map Tracker"
+	},
+	"var_itemsonly": {
+	  "display_name": "Items Only"
+	}
+  }
+}

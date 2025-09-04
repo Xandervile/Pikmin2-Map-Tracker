@@ -1,0 +1,242 @@
+[
+  {
+    "name": "awakeningwood",
+    "chest_unopened_img": "images/checks/chestunopened.png",
+    "chest_opened_img": "images/checks/chestopened.png",
+    "children": [
+      {
+        "name": "Access",
+		"access_rules": ["globe1"],
+		"children": [
+		  {
+			"name": "Get White Pikmin",
+			"map_locations": [
+			  {
+				"map":"awakeningwood",
+				"x":180,
+				"y":225,                
+				"size": 10,
+				"border_thickness":1
+			  }
+			],
+			"sections":[
+			  {
+				"name":"White Pikmin",
+				"item_count":1,
+				"chest_unopened_img": "images/GreyCandypop.png",
+				"chest_opened_img": "images/WhiteCandypop.png",
+			  }
+			]
+		  },
+		  {
+			"name": "Sunseed Berry",
+			"map_locations": [
+			  {
+				"map":"awakeningwood",
+				"x":100,
+				"y":265,                
+				"size": 10,
+				"border_thickness":1
+			  }
+			],
+			"sections":[
+			  {
+				"name":"Sunseed Berry",
+				"item_count":1
+			  }
+			]
+		  },
+		  {
+			"name": "Pilgrim Bulb",
+			"map_locations": [
+			  {
+				"map":"awakeningwood",
+				"x":158,
+				"y":272,                
+				"size": 10,
+				"border_thickness":1
+			  }
+			],
+			"sections":[
+			  {
+				"name":"Pilgrim Bulb",
+				"item_count":1
+			  }
+			]
+		  },
+		  {
+			"name": "Chance Totem",
+			"access_rules": ["blueonion", "whiteonion,purpleonion"],
+			"map_locations": [
+			  {
+				"map":"awakeningwood",
+				"x":214,
+				"y":170,                
+				"size": 10,
+				"border_thickness":1
+			  }
+			],
+			"sections":[
+			  {
+				"name":"Chance Totem",
+				"item_count":1
+			  }
+			]
+		  },
+		  {
+			"name": "Healing Cask",
+			"access_rules": ["yellowonion"],
+			"map_locations": [
+			  {
+				"map":"awakeningwood",
+				"x":116,
+				"y":153,                
+				"size": 10,
+				"border_thickness":1
+			  }
+			],
+			"sections":[
+			  {
+				"name":"Healing Cask",
+				"item_count":1
+			  }
+			]
+		  },
+		  {
+			"name": "Geographic Projection",
+			"access_rules": ["blueonion", "whiteonion"],
+			"map_locations": [
+			  {
+				"map":"awakeningwood",
+				"x":42,
+				"y":193,                
+				"size": 10,
+				"border_thickness":1
+			  }
+			],
+			"sections":[
+			  {
+				"name":"Geographic Projection",
+				"item_count":1
+			  }
+			]
+		  },
+		  {
+			"name": "Decorative Goo",
+			"access_rules": ["purpleonion, yellowonion,blueonion", "whiteonion, yellowonion,blueonion"],
+			"map_locations": [
+			  {
+				"map":"awakeningwood",
+				"x":163,
+				"y":68,                
+				"size": 10,
+				"border_thickness":1
+			  }
+			],
+			"sections":[
+			  {
+				"name":"Decorative Goo",
+				"item_count":1
+			  }
+			]
+		  },
+		  {
+			"name": "Air Brake",
+			"access_rules": ["blueonion"],
+			"map_locations": [
+			  {
+				"map":"awakeningwood",
+				"x":40,
+				"y":300,                
+				"size": 10,
+				"border_thickness":1
+			  }
+			],
+			"sections":[
+			  {
+				"name":"Air Brake",
+				"item_count":1
+			  }
+			]
+		  },
+		  {
+			"name": "Hole of Beasts Entrance",
+			"access_rules": ["hobkey"],
+			"map_locations": [
+			  {
+				"map":"awakeningwood",
+				"x":55,
+				"y":115,                
+				"size": 10,
+				"border_thickness":1
+			  }
+			],
+			"sections":[
+			  {
+				"name":"Enter Hole of Beasts",
+				"item_count":1
+			  }
+			]
+		  },
+		  {
+			"name": "White Flower Garden Entrance",
+			"access_rules": ["wfgkey,purpleonion","wfgkey,blueonion,whiteonion"],
+			"map_locations": [
+			  {
+				"map":"awakeningwood",
+				"x":155,
+				"y":125,                
+				"size": 10,
+				"border_thickness":1
+			  }
+			],
+			"sections":[
+			  {
+				"name":"Enter White Flower Garden",
+				"item_count":1
+			  }
+			]
+		  },
+		  {
+			"name": "Bulblax Kingdom Entrance",
+			"access_rules": ["bkkey,blueonion,yellowonion","bkkey,purpleonion,whiteonion,yellowonion"],
+			"map_locations": [
+			  {
+				"map":"awakeningwood",
+				"x":155,
+				"y":150,                
+				"size": 10,
+				"border_thickness":1
+			  }
+			],
+			"sections":[
+			  {
+				"name":"Enter Bulblax Kingdom",
+				"item_count":1
+			  }
+			]
+		  },
+		  {
+			"name": "Snagret Hole Entrance",
+			"access_rules": ["shkey,blueonion,whiteonion"],
+			"map_locations": [
+			  {
+				"map":"awakeningwood",
+				"x":90,
+				"y":322,                
+				"size": 10,
+				"border_thickness":1
+			  }
+			],
+			"sections":[
+			  {
+				"name":"Enter Snagret Hole",
+				"item_count":1
+			  }
+			]
+		  }
+		]
+	  }
+    ]
+  }
+]

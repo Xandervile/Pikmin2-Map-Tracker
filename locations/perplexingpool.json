@@ -1,0 +1,224 @@
+[
+  {
+    "name": "perplexingpool",
+    "chest_unopened_img": "images/checks/chestunopened.png",
+    "chest_opened_img": "images/checks/chestopened.png",
+    "children": [
+      {
+        "name": "Access",
+		"access_rules": ["globe2"],
+		"children": [
+		      {
+			"name": "Gherkin Gate",
+			"access_rules": ["yellowonion"],
+			"map_locations": [
+			  {
+				"map":"perplexingpool",
+				"x":227,
+				"y":198,                
+				"size": 10,
+				"border_thickness":1
+			  }
+			],
+			"sections":[
+			  {
+				"name":"Gherkin Gate",
+				"item_count":1
+			  }
+			]
+		  },
+		  {
+			"name": "Impediment Scourge",
+			"access_rules": ["yellowonion"],
+			"map_locations": [
+			  {
+				"map":"perplexingpool",
+				"x":165,
+				"y":193,                
+				"size": 10,
+				"border_thickness":1
+			  }
+			],
+			"sections":[
+			  {
+				"name":"Impediment Scourge",
+				"item_count":1
+			  }
+			]
+		  },
+		  {
+			"name": "Aquatic Mine",
+			"access_rules": ["blueonion"],
+			"map_locations": [
+			  {
+				"map":"perplexingpool",
+				"x":215,
+				"y":265,                
+				"size": 10,
+				"border_thickness":1
+			  }
+			],
+			"sections":[
+			  {
+				"name":"Aquatic Mine",
+				"item_count":1
+			  }
+			]
+		  },
+		  {
+			"name": "Fortified Delicacy",
+			"access_rules": ["blueonion"],
+			"map_locations": [
+			  {
+				"map":"perplexingpool",
+				"x":210,
+				"y":350,                
+				"size": 10,
+				"border_thickness":1
+			  }
+			],
+			"sections":[
+			  {
+				"name":"Fortified Delicacy",
+				"item_count":1
+			  }
+			]
+		  },
+		  {
+			"name": "Onion Replica",
+			"access_rules": ["blueonion"],
+			"map_locations": [
+			  {
+				"map":"perplexingpool",
+				"x":110,
+				"y":360,                
+				"size": 10,
+				"border_thickness":1
+			  }
+			],
+			"sections":[
+			  {
+				"name":"Onion Replica",
+				"item_count":1
+			  }
+			]
+		  },
+		  {
+			"name": "Optical Illustration",
+			"access_rules": ["blueonion,yellowonion"],
+			"map_locations": [
+			  {
+				"map":"perplexingpool",
+				"x":42,
+				"y":153,                
+				"size": 10,
+				"border_thickness":1
+			  }
+			],
+			"sections":[
+			  {
+				"name":"Optical Illustration",
+				"item_count":1
+			  }
+			]
+		  },
+		  {
+			"name": "Massage Girdle",
+			"access_rules": ["blueonion"],
+			"map_locations": [
+			  {
+				"map":"perplexingpool",
+				"x":126,
+				"y":37,                
+				"size": 10,
+				"border_thickness":1
+			  }
+			],
+			"sections":[
+			  {
+				"name":"Massage Girdle",
+				"item_count":1
+			  }
+			]
+		  },
+		  {
+			"name": "Citadel of Spiders Entrance",
+			"access_rules": ["coskey"],
+			"map_locations": [
+			  {
+				"map":"perplexingpool",
+				"x":77,
+				"y":227,                
+				"size": 10,
+				"border_thickness":1
+			  }
+			],
+			"sections":[
+			  {
+				"name":"Enter Citadel of Spiders",
+				"item_count":1
+			  }
+			]
+		  },
+		  {
+			"name": "Glutton's Kitchen Entrance",
+			"access_rules": ["gkkey, yellowonion"],
+			"map_locations": [
+			  {
+				"map":"perplexingpool",
+				"x":110,
+				"y":98,                
+				"size": 10,
+				"border_thickness":1
+			  }
+			],
+			"sections":[
+			  {
+				"name":"Enter Glutton's Kitchen",
+				"item_count":1
+			  }
+			]
+		  },
+		  {
+			"name": "Shower Room Entrance",
+			"access_rules": ["srkey,blueonion,yellowonion"],
+			"map_locations": [
+			  {
+				"map":"perplexingpool",
+				"x":240,
+				"y":340,                
+				"size": 10,
+				"border_thickness":1
+			  }
+			],
+			"sections":[
+			  {
+				"name":"Enter Shower Room",
+				"item_count":1
+			  }
+			]
+		  },
+		  {
+			"name": "Submerged Castle Entrance",
+			"access_rules": ["smgckey,blueonion"],
+			"map_locations": [
+			  {
+				"map":"perplexingpool",
+				"x":160,
+				"y":47,                
+				"size": 10,
+				"border_thickness":1
+			  }
+			],
+			"sections":[
+			  {
+				"name":"Enter Submerged Castle",
+				"item_count":1
+			  }
+			]
+		  }
+		]
+	  }
+    ]
+  }
+]

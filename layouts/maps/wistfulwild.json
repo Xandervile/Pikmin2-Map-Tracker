@@ -1,0 +1,43 @@
+{
+  "wistfulwild": {
+    "type": "viewbox",
+    "content": [
+      {
+        "type": "container",
+        "h_alignment": "center",
+        "v_alignment": "top",
+        "content": [
+        // Item Maps
+          {
+          "type": "viewbox",
+          "margin": "0,20,0,97",
+          "content": {
+            "type": "itemgrid",
+            "dropshadow": true,
+            "h_alignment": "center",
+            "item_size": "2048",
+            "item_margin": 25,
+            "rows": [
+              [
+                "map_wistfulwild",
+              ]
+            ]
+          }
+          },
+          // Map Locations
+          {
+            "type": "array",
+            "content": [
+              {
+              "type": "map",
+              "maps": [
+                "wistfulwild",
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

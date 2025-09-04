@@ -1,0 +1,166 @@
+[
+  {
+    "name": "wistfulwild",
+    "chest_unopened_img": "images/checks/chestunopened.png",
+    "chest_opened_img": "images/checks/chestopened.png",
+    "children": [
+      {
+        "name": "Access",
+		"access_rules": ["shacho"],
+		"children": [
+		  {
+			"name": "Doomsday Apparatus",
+			"map_locations": [
+			  {
+				"map":"wistfulwild",
+				"x":27,
+				"y":113,                
+				"size": 10,
+				"border_thickness":1
+			  }
+			],
+			"sections":[
+			  {
+				"name":"Doomsday Apparatus",
+				"item_count":1
+			  }
+			]
+		  },
+		  {
+			"name": "Seed of Greed",
+			"access_rules":["blueonion,whiteonion"],
+			"map_locations": [
+			  {
+				"map":"wistfulwild",
+				"x":230,
+				"y":220,                
+				"size": 10,
+				"border_thickness":1
+			  }
+			],
+			"sections":[
+			  {
+				"name":"Seed of Greed",
+				"item_count":1
+			  }
+			]
+		  },
+		  {
+			"name": "Anti-Hiccup Fungus",
+			"access_rules":["blueonion,whiteonion"],
+			"map_locations": [
+			  {
+				"map":"wistfulwild",
+				"x":220,
+				"y":150,                
+				"size": 10,
+				"border_thickness":1
+			  }
+			],
+			"sections":[
+			  {
+				"name":"Anti-Hiccup Fungus",
+				"item_count":1
+			  }
+			]
+		  },
+		  {
+			"name": "Armored Nut",
+			"access_rules":["blueonion,whiteonion"],
+			"map_locations": [
+			  {
+				"map":"wistfulwild",
+				"x":200,
+				"y":160,                
+				"size": 10,
+				"border_thickness":1
+			  }
+			],
+			"sections":[
+			  {
+				"name":"Armored Nut",
+				"item_count":1
+			  }
+			]
+		  },
+		  {
+			"name": "Conifer Spire",
+			"access_rules":["blueonion,yellowonion"],
+			"map_locations": [
+			  {
+				"map":"wistfulwild",
+				"x":122,
+				"y":278,                
+				"size": 10,
+				"border_thickness":1
+			  }
+			],
+			"sections":[
+			  {
+				"name":"Conifer Spire",
+				"item_count":1
+			  }
+			]
+		  },
+		  {
+			"name": "Cavern of Chaos Entrance",
+			"access_rules":["cockey"],
+			"map_locations": [
+			  {
+				"map":"wistfulwild",
+				"x":52,
+				"y":131,                
+				"size": 10,
+				"border_thickness":1
+			  }
+			],
+			"sections":[
+			  {
+				"name":"Enter Cavern of Chaos",
+				"item_count":1
+			  }
+			]
+		  },
+		  {
+			"name": "Hole of Heroes Entrance",
+			"access_rules":["hohkey,blueonion,yellowonion"],
+			"map_locations": [
+			  {
+				"map":"wistfulwild",
+				"x":197,
+				"y":233,                
+				"size": 10,
+				"border_thickness":1
+			  }
+			],
+			"sections":[
+			  {
+				"name":"Enter Hole of Heroes",
+				"item_count":1
+			  }
+			]
+		  },
+		  {
+			"name": "Dream Den Entrance",
+			"access_rules":["blueonion,whiteonion,ddkey"],
+			"map_locations": [
+			  {
+				"map":"wistfulwild",
+				"x":240,
+				"y":160,                
+				"size": 10,
+				"border_thickness":1
+			  }
+			],
+			"sections":[
+			  {
+				"name":"Enter Dream Den",
+				"item_count":1
+			  }
+			]
+		  }
+		]
+	  }
+    ]
+  }
+]
